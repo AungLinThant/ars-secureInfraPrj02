@@ -1,5 +1,5 @@
 variable "cloud_provider" {
-    description = "Cloud Provider Name"
+    description = "Cloud Provider Names"
     type = string
     default = "aws"
 }
