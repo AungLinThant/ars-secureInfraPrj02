@@ -2,9 +2,9 @@ data "terraform_remote_state" "vault_admin" {
   backend = "remote"
 
   config = {
-    organization = "ars_SecureInfraProject"
+    organization = "ars_SecureInfraProject02"
     workspaces = {
-      name = "ars_SecureInfraProject"
+      name = "tfc-create-vault-dynamic-role"
     }
   }
 }
