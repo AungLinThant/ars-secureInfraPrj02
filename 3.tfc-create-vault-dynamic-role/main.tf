@@ -1,7 +1,7 @@
 resource "vault_aws_secret_backend" "aws" {
   description = "Vault AWS Secret Engine Resource for AWS Master Account"
-  access_key = data.terraform_remote_state.vault_admin.outputs.vault_admin_accesskey
-  secret_key = data.terraform_remote_state.vault_admin.outputs.vault_admin_secret_accesskey
+  access_key = data.terraform_remote_state.vault_admin.outputs.vault-admin_accesskey
+  secret_key = data.terraform_remote_state.vault_admin.outputs.vault-admin_secret_accesskey
   region = var.aws_region
   path = var.secret_path.master_secret_path
   default_lease_ttl_seconds = 600
