@@ -1,4 +1,4 @@
-data "terraform_remote_state" "vault_admin" {
+data "terraform_remote_state" "vault-admin" {
   backend = "remote"
 
   config = {
