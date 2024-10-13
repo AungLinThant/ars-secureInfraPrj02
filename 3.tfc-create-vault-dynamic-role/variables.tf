@@ -50,4 +50,3 @@ variable "policy_arns_name" {
     "rdsadmin" = ["arn:aws:iam::aws:policy/AmazonRDSFullAccess"]
   }   
 }
-  
